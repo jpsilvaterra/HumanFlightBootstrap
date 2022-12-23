@@ -1,0 +1,14 @@
+$footer-link-hover: #B9B9B9;
+$copyright: #555252;
+$table-color: #D8D8D8;
+$padding: 20px 0;
+$padding-button: 15px 35px;
+
+@mixin center ($display, $content, $itens){
+  display: $display;
+  justify-content: $content;
+  align-items: $itens;
+}
+*{
+  color: #FFFFFF;
+}
